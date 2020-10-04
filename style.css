@@ -143,6 +143,7 @@ p{
     color:#a11b00;
 
 }
+/*---------foooter start-------------*/
 .testimonial{
     margin-top: 100;
 }
@@ -171,6 +172,8 @@ p{
     color: #a82700;
     font-size: 24px;
 }
+/*---------testimonial end-------------*/
+/*---------brand start-------------*/
 .brands .col5{
     margin: 100px 0;
     cursor: pointer;
@@ -183,7 +186,8 @@ p{
     filter:grayscale(0);
 
 }
-/*---------foooter-------------*/
+/*---------brand section end-------------*/
+/*---------footer start-------------*/
 .footer{
     background:black;
     padding: 50px 10px;
@@ -221,15 +225,31 @@ p{
     color: gray;
     margin-top: 10px;
 }
+/*---------footer end-------------*/
 
+/* --------all products page start-------- */
+.row_2{
+    justify-content: space-between;
+    margin: 50px auto 20px;
+}
 
+.page_btn{
+    margin:0 auto 80px;
+}
+.page_btn span{
+    border: 2px solid gray;
+    display: inline-block;
+    padding: 2px 10px;
+    transition: .5s;
+   cursor: pointer;
+}
 
-
-
-
-
-
-
+.page_btn span:hover{
+    background: #423b3b;
+    color: #fff;
+    border-radius: 5px;
+}
+/* --------all products page end-------- */
 
 
 
