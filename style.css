@@ -26,8 +26,15 @@ nav ul li{
 nav ul li a{
     font-size: 24px;
     text-decoration: none;
-    color:black;
+    color:#000;
+    transition: .5s;
 }
+
+nav ul li a:hover{
+    text-decoration: none;
+    color:#5fbeb6;
+}
+
 .container{
     max-width: 1080px;
     margin: 0 auto;
@@ -55,19 +62,28 @@ nav ul li a{
 }
 .btn{
     text-decoration: none;
-    background: salmon;
+    background: #007bff;
     border-radius: 30px;
     padding: 8px 10px;
     margin: 25px 0px;
     display: inline-block;
-    color:black;
+    color: #fff;
     transition: background .5s;
+    font-weight: bold;
+    border: 1px solid #007bff;
 }
-header{
+header.container-fluid{
     background:#fbc0b7b3;
 }
+
+section.container-fluid{
+    background:#5FBEB6;
+}
+
 .btn:hover{
-    background:#563434;
+    background:#0069d9;
+    color: #fff;
+    border: 1px solid #0069d9;
 }
 header.row{
     margin-top:70px 0;
@@ -254,7 +270,8 @@ p{
 
 
 
+li.active a{
+    color: #5fbeb6;
 
-
-
+}
 
